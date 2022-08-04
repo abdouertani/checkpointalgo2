@@ -1,0 +1,23 @@
+function dot_product(var:v1,v2:array[2];sum:integer)
+begin
+
+sum:=(v1[0]*v2[0])+(v1[1]*v2[1])
+
+
+
+
+
+Algorithm orthogonal
+var 
+n,i:integer;
+begin
+for i from 0 to n-1 do
+  read(v1[0],v1[1]);
+  read(v2[0],v2[1]);
+  dot_product();
+  if sum =0 then
+    write(vectors are orthogonal);
+  else write(vectors are not orthogonal);
+  end_for
+
+  
